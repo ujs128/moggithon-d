@@ -40,7 +40,8 @@ footer{
     margin: auto;
     padding: 0 20px;
 }
-h2{   background-image: url("niconico_bg_blue.png");
+h2{  
+    background-image: url("niconico_bg_blue.png");
     line-height: 50px;
     padding: 0 15px;
     color: #fff;
