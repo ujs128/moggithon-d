@@ -1,0 +1,42 @@
+.child-container{
+    max-width: 960px;
+    margin: auto;
+}
+.souvenir{
+    background-image: url("./img/background.jpg");
+}
+.souvenir h2{
+    text-align: center;
+    color: floralwhite;
+    background-color: dodgerblue;
+    max-width: 750px;
+    margin: auto;
+    border: 5px solid blue;
+}
+.picture1{
+    display: flex;
+    width: 300px;
+    height: 200px;
+    margin: 0 200px;
+}
+.pic1{
+    margin: 20px 20px 20px;
+}
+.pic2{
+    margin: 20px 20px 20px;
+}
+.souvenir-text{
+    text-align: center;
+}
+.picture2{
+    display: flex;
+    width: 300px;
+    height: 200px;
+    margin: 0 275px;
+}
+.pic3{
+    margin: 20px 20px 20px;
+}
+.pic4{
+    margin: 20px 20px 20px;
+}
