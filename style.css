@@ -50,3 +50,81 @@ footer{
   width: 150px;
   background: #eee;
 }
+
+
+/* shuma */
+.child-container {
+  max-width: 960px;
+  margin: auto;
+}
+
+.dolphine {
+  background-color: #f3f3f3;
+  padding: 20px;
+}
+
+.dolphine-title h1 {
+  background: linear-gradient(rgba(0, 51, 219, 0.808), rgb(190, 162, 255));
+  color: #fff;
+  border-radius: 10px;
+  padding: 5px 10px;
+  box-shadow: 10px 10px 10px #999;
+}
+
+.dolphine-content {
+  display: flex;
+  justify-content: center;
+}
+
+.dolphine-content-left {
+  width: 50%;
+  margin-right: 20px;
+  position: relative;
+}
+
+.dolphine-content-right {
+  width: 50%;
+}
+
+
+.dolphine-content-left img {
+  display: block;
+  width: 100%;
+  box-shadow: 10px 10px 10px #999;
+  border-radius: 10px;
+}
+
+.dolphine-content-left div {
+  width: 300px;
+  background-color: rgba(0, 102, 255, 0.6);
+  position: absolute;
+  top: 84px;
+  left: 400px;
+  border-radius: 20px;
+  padding:20px 10px;
+  text-align: center;
+  border: none;
+  box-shadow: 10px 10px 10px #999;
+}
+
+.dolphine-content-left div p {
+  margin: 0;
+  font-size: 24px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  position: relative;
+  color: rgb(255, 208, 0);
+  font-weight: 600;
+}
+
+.dolphine-content-left div p::before {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 0;
+  height: 0;
+  left: -24px;
+  top: 8px;
+  border-right: 15px solid rgb(0, 102, 255, 0.6);
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+}
