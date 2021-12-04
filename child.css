@@ -12,6 +12,7 @@
     max-width: 750px;
     margin: auto;
     border: 5px solid blue;
+    border-radius: 50px;
 }
 .picture1{
     display: flex;
@@ -32,11 +33,29 @@
     display: flex;
     width: 300px;
     height: 200px;
-    margin: 0 275px;
+    margin: 0 -60px;
+    cursor: pointer;
 }
 .pic3{
     margin: 20px 20px 20px;
+    border-radius: 50%;
 }
 .pic4{
     margin: 20px 20px 20px;
+    border-radius: 50%;
+}
+.bottom-part{
+    display: flex;
+    /* white-space: nowrap; */
+}
+.explain1{
+    white-space: nowrap;
+    margin: 0 100px;
+    visibility: hidden;
+}
+
+.explain2{
+    white-space: nowrap;
+    margin: 0 200px;
+    visibility: hidden;
 }
