@@ -1,3 +1,43 @@
+body{
+    background-image: url(./img/背景.jpeg);
+}
+
+header{
+    text-align: center;
+    border: skyblue 10px solid;
+    max-width: 960px;
+    margin: 0 0 100px 200px;
+    background-color: skyblue;
+    border-radius: 200px;
+    color: white;
+}
+.child-container{
+    text-align: center;
+}
+.child-container h2{
+    border: plum 20px solid;
+    background-color: plum;
+    background-color: plum;
+    color: white;
+    width: 500px;
+    margin: 20px 200px;
+}
+.fish-explain{
+    display: flex;
+    margin: 50px 100px;
+}
+.fish-content{
+    border: pink 10px solid;
+    padding: 20px;
+    visibility: hidden;
+}
+.manbou{
+    width: 300px;
+    height: 200px;
+    border: pink 10px solid;
+    cursor: pointer;
+}
+
 .child-container{
     max-width: 960px;
     margin: auto;
@@ -52,10 +92,19 @@
     white-space: nowrap;
     margin: 0 100px;
     visibility: hidden;
+    
 }
 
 .explain2{
     white-space: nowrap;
-    margin: 0 200px;
+    margin: 0 180px;
     visibility: hidden;
+}
+.footerInner{
+    text-align: center;
+    margin-top: 50px;
+    padding: 30px;
+}
+.visible{
+    visibility: visible;
 }

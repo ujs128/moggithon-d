@@ -47,3 +47,65 @@ h2{
     color: #fff;
     text-align: center;
 }
+.child-container{
+    max-width: 960px;
+    margin: auto;
+}
+.souvenir{
+    background-image: url("./img/background.jpg");
+}
+.souvenir h2{
+    text-align: center;
+    color: floralwhite;
+    background-color: dodgerblue;
+    max-width: 750px;
+    margin: auto;
+    border: 5px solid blue;
+    border-radius: 50px;
+}
+.picture1{
+    display: flex;
+    width: 300px;
+    height: 200px;
+    margin: 0 200px;
+}
+.pic1{
+    margin: 20px 20px 20px;
+}
+.pic2{
+    margin: 20px 20px 20px;
+}
+.souvenir-text{
+    text-align: center;
+}
+.picture2{
+    display: flex;
+    width: 300px;
+    height: 200px;
+    margin: 0 -60px;
+    cursor: pointer;
+}
+.pic3{
+    margin: 20px 20px 20px;
+    border-radius: 50%;
+}
+.pic4{
+    margin: 20px 20px 20px;
+    border-radius: 50%;
+}
+.bottom-part{
+    display: flex;
+    /* white-space: nowrap; */
+}
+.explain1{
+    white-space: nowrap;
+    margin: 0 100px;
+    visibility: hidden;
+    
+}
+
+.explain2{
+    white-space: nowrap;
+    margin: 0 180px;
+    visibility: hidden;
+}
